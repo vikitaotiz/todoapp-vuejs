@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "node server.js"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.9.0",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
